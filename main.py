@@ -37,7 +37,17 @@ morse_dict = {
     7: "__...",
     8: "___..",
     9: "____::",
-    " ": "......."
+    " ": ".......",
+    ",": "__..__",
+    ".": "._._._",
+    "?": "..__..",
+    "\"": "._.._.",
+    "'": ".____.",
+    ":": "___...",
+    "-": "_...._",
+    "/": "_.._.",
+    "(": "_.__.",
+    ")": "_.__._"
 }
 
 
@@ -54,6 +64,6 @@ def code_in_morse(text):
 
 print(ascii_art)
 user_input = input("Hello user!\n"
-                   "This is a morde encoder.\n"
+                   "This is a morse encoder.\n"
                    "Please enter the word you want to encode: ").lower()
 print(code_in_morse(user_input))
